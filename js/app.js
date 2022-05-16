@@ -26,6 +26,10 @@ btnSearchIp.addEventListener('click', () => {
             lenguages.textContent = `Lenguages: ${datos.languages}`;
             org.textContent = `Org: ${datos.org}`;
 
+            // detectar navegadir
+            const browser = navigator.userAgent;
+            console.log(browser)
+
 
         }
     });
